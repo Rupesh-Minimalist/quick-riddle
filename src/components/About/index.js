@@ -3,9 +3,8 @@ import $ from "jquery";
 import Profile from "../Profile";
 import "./styles.css";
 import rupesh from "../../images/rupesh.png";
-import suvarna from "../../images/suvarna.png";
-import garima from "../../images/garima.png";
-import shruti from "../../images/shruti.png";
+import sanjeev from "../../images/sanjeev.jpg";
+
 
 const About = () => {
   useEffect(() => {
@@ -55,27 +54,11 @@ const About = () => {
             </div>
           </div>
 
+          
           <div className="creator" class="card" style={{ width: "400px" }}>
             <img
               class="card-img-top"
-              src={garima}
-              alt="Card"
-              style={{
-                width: "370px",
-                height: "350px",
-                borderRadius: " 25rem",
-              }}
-            />
-            <div class="card-body">
-              <h4 class="card-title">Garima</h4>
-              <p class="card-text">Developer Id- 1910990973</p>
-            </div>
-          </div>
-
-          <div className="creator" class="card" style={{ width: "400px" }}>
-            <img
-              class="card-img-top"
-              src={suvarna}
+              src={sanjeev}
               alt="Card"
               style={{
                 width: "370px",
@@ -84,27 +67,12 @@ const About = () => {
               }}
             />
             <div class="card-body">
-              <h4 class="card-title">Suvarna</h4>
-              <p class="card-text">Developer Id-1910990966</p>
+              <h4 class="card-title">Sanjeev Kumar</h4>
+              <p class="card-text">Developer Id-1910990579</p>
             </div>
           </div>
 
-          <div className="creator" class="card" style={{ width: "400px" }}>
-            <img
-              class="card-img-top"
-              src={shruti}
-              alt="Card"
-              style={{
-                width: "370px",
-                height: "350px",
-                borderRadius: " 30rem",
-              }}
-            />
-            <div class="card-body">
-              <h4 class="card-title">Shruti</h4>
-              <p class="card-text">Developer Id-1910990972</p>
-            </div>
-          </div>
+          
         </div>
         <div style={{ padding: "100px" }}>
           <a href="/" class="btn btn-primary" style={{ width: "400px"}}>
