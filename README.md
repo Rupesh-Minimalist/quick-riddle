@@ -1,1 +1,1 @@
-# quick-riddle
+# quick-riddle by rupesh Singh
